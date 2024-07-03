@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "homework")(type "KiCad")(uri "${KIPRJMOD}/homework.kicad_sym")(options "")(descr ""))
+)
