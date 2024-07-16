@@ -5,194 +5,14 @@
 	(uuid "34d483ea-61c1-4e08-b30a-5dee616d4777")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
+		(symbol "mipt:AW9523B"
 			(pin_names
-				(offset 0) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
+			(property "Reference" "U"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -200,7 +20,15 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "AW9523B"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MODULE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -209,7 +37,16 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "./datasheets/AW9523+English+Datasheet.pdf"
+				(at 45.72 32.766 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -218,327 +55,10 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
+			(symbol "AW9523B_1_0"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MCU_Microchip_ATmega:ATmega328-MM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 36.83 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ATmega328-MM"
-				(at 2.54 -36.83 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, QFN-28"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "AVR 8bit Microcontroller MegaAVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.45mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ATmega328-MM_0_1"
-				(rectangle
-					(start -12.7 -35.56)
-					(end 12.7 35.56)
+					(start -12.7 24.13)
+					(end 12.7 -24.13)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -548,11 +68,11 @@
 					)
 				)
 			)
-			(symbol "ATmega328-MM_1_1"
+			(symbol "AW9523B_1_1"
 				(pin bidirectional line
-					(at 15.24 -20.32 180)
-					(length 2.54)
-					(name "PD3"
+					(at 20.32 19.05 180)
+					(length 7.62)
+					(name "P1_0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -568,9 +88,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 30.48 180)
-					(length 2.54)
-					(name "PB0"
+					(at 20.32 -1.27 180)
+					(length 7.62)
+					(name "P0_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -586,9 +106,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 27.94 180)
-					(length 2.54)
-					(name "PB1"
+					(at 20.32 -3.81 180)
+					(length 7.62)
+					(name "P0_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -604,9 +124,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 25.4 180)
-					(length 2.54)
-					(name "PB2"
+					(at 20.32 -6.35 180)
+					(length 7.62)
+					(name "P0_6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -622,9 +142,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 22.86 180)
-					(length 2.54)
-					(name "PB3"
+					(at 20.32 -8.89 180)
+					(length 7.62)
+					(name "P0_7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -640,9 +160,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
-					(length 2.54)
-					(name "PB4"
+					(at 20.32 -11.43 180)
+					(length 7.62)
+					(name "P1_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -658,9 +178,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
-					(length 2.54)
-					(name "PB5"
+					(at 20.32 -13.97 180)
+					(length 7.62)
+					(name "P1_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -675,10 +195,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 38.1 270)
-					(length 2.54)
-					(name "AVCC"
+				(pin bidirectional line
+					(at 20.32 -16.51 180)
+					(length 7.62)
+					(name "P1_6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -693,10 +213,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -15.24 30.48 0)
-					(length 2.54)
-					(name "AREF"
+				(pin bidirectional line
+					(at 20.32 -19.05 180)
+					(length 7.62)
+					(name "P1_7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,10 +231,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -38.1 90)
-					(length 2.54) hide
-					(name "GND"
+				(pin input line
+					(at -20.32 -13.97 0)
+					(length 7.62)
+					(name "AD0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -729,10 +249,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 2.54)
-					(name "PC0"
+				(pin input line
+					(at -20.32 11.43 0)
+					(length 7.62)
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -748,9 +268,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 2.54)
-					(name "PD4"
+					(at 20.32 16.51 180)
+					(length 7.62)
+					(name "P1_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -766,9 +286,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "PC1"
+					(at -20.32 8.89 0)
+					(length 7.62)
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -783,10 +303,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "PC2"
+				(pin power_in line
+					(at 0 31.75 270)
+					(length 7.62)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -801,10 +321,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "PC3"
+				(pin output line
+					(at -20.32 -16.51 0)
+					(length 7.62)
+					(name "INTN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -819,10 +339,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "PC4"
+				(pin input line
+					(at -20.32 13.97 0)
+					(length 7.62)
+					(name "RSTN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -837,10 +357,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "PC5"
+				(pin input line
+					(at -20.32 -11.43 0)
+					(length 7.62)
+					(name "AD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -856,99 +376,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 2.54)
-					(name "~{RESET}/PC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 2.54)
-					(name "PD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 2.54)
-					(name "PD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 2.54)
-					(name "PD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 38.1 270)
-					(length 2.54)
-					(name "VCC"
+					(at 20.32 13.97 180)
+					(length 7.62)
+					(name "P1_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -963,10 +393,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -38.1 90)
-					(length 2.54)
-					(name "GND"
+				(pin bidirectional line
+					(at 20.32 11.43 180)
+					(length 7.62)
+					(name "P1_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -982,9 +412,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 15.24 180)
-					(length 2.54)
-					(name "XTAL1/PB6"
+					(at 20.32 8.89 180)
+					(length 7.62)
+					(name "P0_0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1000,9 +430,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 12.7 180)
-					(length 2.54)
-					(name "XTAL2/PB7"
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "P0_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1018,9 +448,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -25.4 180)
-					(length 2.54)
-					(name "PD5"
+					(at 20.32 3.81 180)
+					(length 7.62)
+					(name "P0_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1036,9 +466,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -27.94 180)
-					(length 2.54)
-					(name "PD6"
+					(at 20.32 1.27 180)
+					(length 7.62)
+					(name "P0_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1053,10 +483,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -30.48 180)
-					(length 2.54)
-					(name "PD7"
+				(pin power_in line
+					(at -20.32 -19.05 0)
+					(length 7.62)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1073,647 +503,131 @@
 				)
 			)
 		)
-		(symbol "homework:AW9523B"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AW9523B_1_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 20.32 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:Earth"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Earth"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground gnd"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Earth_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
-	(junction
-		(at 118.11 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "013abfd4-0111-4c72-b86c-d8e8f306c0e1")
+	(no_connect
+		(at 73.66 44.45)
+		(uuid "093f3a13-d364-4e82-9ead-c61c35722238")
 	)
-	(junction
-		(at 163.83 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1992778-596b-48c4-93fb-7d1b5c526ce6")
+	(no_connect
+		(at 73.66 64.77)
+		(uuid "0e340bb0-ad15-4f56-8ed3-76146fb99322")
 	)
-	(junction
-		(at 111.76 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edc526d5-0924-4baa-b4ca-157835044820")
+	(no_connect
+		(at 73.66 57.15)
+		(uuid "2359b1e6-1837-486c-a9ab-6e166a0b7f83")
 	)
-	(junction
-		(at 156.21 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2626fc4-d23d-4caf-acaa-077daca641a2")
+	(no_connect
+		(at 73.66 67.31)
+		(uuid "249daf94-1433-48f8-89e1-c34fe8d97789")
 	)
-	(wire
-		(pts
-			(xy 111.76 72.39) (xy 111.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1420eefd-e251-480a-8bac-ef83888e6270")
+	(no_connect
+		(at 73.66 41.91)
+		(uuid "26727280-674b-499f-8c2b-e135a2fd07e6")
 	)
-	(wire
-		(pts
-			(xy 135.89 93.98) (xy 146.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b375b6-7bde-4867-8109-16f2f62f1d7b")
+	(no_connect
+		(at 53.34 26.67)
+		(uuid "28ced71b-4a5f-4d53-a439-7ac28cd53269")
 	)
-	(wire
-		(pts
-			(xy 111.76 97.79) (xy 111.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b16ce8-b59e-4b2a-b19d-11c46ee1060b")
+	(no_connect
+		(at 33.02 72.39)
+		(uuid "2a0d0941-eb04-45ac-b2f4-28d44d9bf9ce")
 	)
-	(wire
-		(pts
-			(xy 156.21 72.39) (xy 163.83 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c51590e-147b-4b82-a47f-ee26af0c411b")
+	(no_connect
+		(at 73.66 72.39)
+		(uuid "2a549a14-cbde-42c4-ac40-a82aac79d7be")
 	)
-	(wire
-		(pts
-			(xy 118.11 63.5) (xy 118.11 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b58cc97-7b6a-4e68-951a-fcb7c426f540")
+	(no_connect
+		(at 73.66 69.85)
+		(uuid "3349adef-368d-49a1-b39e-d542dbbca8c5")
 	)
-	(wire
-		(pts
-			(xy 163.83 72.39) (xy 163.83 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a19378-c7f7-4762-8e36-9967927fb784")
+	(no_connect
+		(at 33.02 44.45)
+		(uuid "40c17747-64ee-4ff1-aad8-146a1cc254d9")
 	)
-	(wire
-		(pts
-			(xy 153.67 93.98) (xy 163.83 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06af374-b7f8-4963-86b9-69525426b946")
+	(no_connect
+		(at 33.02 46.99)
+		(uuid "4b4aa5e2-4716-489b-9530-3478d2fd91bc")
 	)
-	(wire
-		(pts
-			(xy 163.83 93.98) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6bbff95-131d-4550-aa2b-c4e165e93870")
+	(no_connect
+		(at 33.02 49.53)
+		(uuid "56083c45-c794-4692-b5e4-077540309cc3")
 	)
-	(wire
-		(pts
-			(xy 111.76 93.98) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd23e06b-12be-4f15-a074-1f0de71975bd")
+	(no_connect
+		(at 33.02 74.93)
+		(uuid "5a574a7b-da70-4b5a-8d59-8425a17863f7")
 	)
-	(wire
-		(pts
-			(xy 118.11 72.39) (xy 111.76 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca872fa3-d8ea-4084-876b-fd5c9453dd1e")
+	(no_connect
+		(at 33.02 77.47)
+		(uuid "5ec3759d-7b31-4431-9315-6d78e9e9d303")
 	)
-	(wire
-		(pts
-			(xy 156.21 63.5) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b29414-c3b4-4526-967b-b1b05c5ead6a")
+	(no_connect
+		(at 73.66 74.93)
+		(uuid "617051e7-32a1-43fa-8af7-58c81fffbc59")
 	)
-	(wire
-		(pts
-			(xy 137.16 72.39) (xy 118.11 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00ca5f5-82c5-436d-86a7-6632fb836585")
+	(no_connect
+		(at 73.66 62.23)
+		(uuid "6c6a4653-3b0f-4b86-820a-0aace657f83a")
 	)
-	(wire
-		(pts
-			(xy 170.18 93.98) (xy 170.18 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d43da2-64b6-4871-9c47-ebd609bdd51d")
+	(no_connect
+		(at 73.66 77.47)
+		(uuid "78406907-dbe4-4e0b-903c-16a319bd5b2c")
 	)
-	(wire
-		(pts
-			(xy 144.78 72.39) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab25981-52f6-4fd6-80bf-d1e12d121352")
+	(no_connect
+		(at 73.66 54.61)
+		(uuid "874a3967-db89-4cb3-989d-c9ae89875024")
+	)
+	(no_connect
+		(at 73.66 49.53)
+		(uuid "9219a05e-ab2b-4071-b460-24a04abee544")
+	)
+	(no_connect
+		(at 73.66 39.37)
+		(uuid "b36b7b7e-6771-49a8-85f0-8abdd6fdfb11")
+	)
+	(no_connect
+		(at 73.66 52.07)
+		(uuid "bc516057-a486-4ec7-a92d-1bc0ed37fa26")
+	)
+	(no_connect
+		(at 73.66 46.99)
+		(uuid "d7cc824b-ea2c-4630-a25e-b58c5e50e8c1")
+	)
+	(no_connect
+		(at 33.02 69.85)
+		(uuid "d856a8bb-9ef8-4173-851c-d447126f8904")
+	)
+	(no_connect
+		(at 73.66 59.69)
+		(uuid "ddbd91c0-a081-4a58-80b1-9a26795b1013")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 118.11 63.5 0)
+		(lib_id "mipt:AW9523B")
+		(at 53.34 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fce42fb-1197-4949-88e2-adc39e81613d")
-		(property "Reference" "#FLG01"
-			(at 118.11 61.595 0)
+		(uuid "e9e38499-ea1b-4a0c-a9c7-b0adf969350c")
+		(property "Reference" "U2"
+			(at 53.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AW9523B"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MODULE"
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,158 +635,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 118.11 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 118.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc5f98c0-d366-42a2-8a35-ded291154b30")
-		)
-		(instances
-			(project ""
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 139.7 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "830106f0-0168-408c-bbd8-4d682cf4cd91")
-		(property "Reference" "BT1"
-			(at 141.5415 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V"
-			(at 141.5415 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
-			(at 141.224 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 141.224 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 139.7 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fc344ab-5911-43bb-ad58-f49bd2aa7e22")
-		)
-		(pin "2"
-			(uuid "175beeb0-a403-4b57-9d24-e13b1b675157")
-		)
-		(instances
-			(project ""
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "homework:AW9523B")
-		(at 96.52 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84b21c0f-48b0-4076-8d6d-869ce52f555a")
-		(property "Reference" "U3"
-			(at 105.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 118.11 0)
+		(property "Datasheet" "./datasheets/AW9523+English+Datasheet.pdf"
+			(at 99.06 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,511 +645,90 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 118.11 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin ""
-			(uuid "db3ac41d-bb8c-4229-854e-36042c6b42da")
-		)
-		(pin ""
-			(uuid "a453412d-2217-4263-aa92-61db4dcc8b8d")
-		)
-		(pin ""
-			(uuid "d2be5559-b5fe-4753-919a-9077b06e8b48")
-		)
-		(instances
-			(project ""
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f3e515f-839d-4792-a499-539acc202bf4")
-		(property "Reference" "R1"
-			(at 149.86 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 149.86 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 149.86 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb93f809-7e67-4738-bbf2-6839840aa65b")
-		)
-		(pin "2"
-			(uuid "8a4012e0-bbbc-41a8-98c2-09d7f3052f40")
-		)
-		(instances
-			(project ""
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 132.08 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab612b8f-d5d5-48fc-ab37-04519dfa12b4")
-		(property "Reference" "D1"
-			(at 130.4925 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "red"
-			(at 130.4925 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9c1af0e-abd3-4f3d-a5ce-242922a14f51")
-		)
-		(pin "1"
-			(uuid "4120a6c5-886f-486d-ac5c-d06962a1ef09")
-		)
-		(instances
-			(project ""
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 111.76 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8b099cb-50f6-436e-8fee-32be4e09d4a6")
-		(property "Reference" "#PWR01"
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 111.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 111.76 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "846a031f-e9e0-456e-b54f-0b6775de6d36")
-		)
-		(instances
-			(project ""
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 156.21 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d44fd379-74a1-460d-9fc2-d556fd42f4b3")
-		(property "Reference" "#FLG02"
-			(at 156.21 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 156.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52ccce1a-3ad5-45fb-9d85-f44be12914ee")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_Microchip_ATmega:ATmega328-MM")
-		(at 72.39 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ece9680c-5d57-4d69-9ea8-24296c76dc33")
-		(property "Reference" "U1"
-			(at 50.8 74.9614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ATmega328-MM"
-			(at 50.8 77.5014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm"
-			(at 72.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
-			(at 72.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, QFN-28"
-			(at 72.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea688727-137c-4979-b3e6-58073af60bc9")
-		)
-		(pin "27"
-			(uuid "dbbfc50e-6e5d-420e-8868-f4088487ddf8")
-		)
-		(pin "28"
-			(uuid "7571e46b-f413-42eb-8795-450b91ef96d1")
-		)
-		(pin "29"
-			(uuid "023e394a-063a-4b9b-9327-b615fee6692a")
-		)
-		(pin "3"
-			(uuid "5486f8a6-e2e9-4bdb-8c83-b3d2ef75a6c4")
-		)
-		(pin "4"
-			(uuid "2c6fcd18-0449-49dc-a900-8cc931657538")
-		)
-		(pin "5"
-			(uuid "108ab602-b7bb-4538-87f4-6f75c291ac3a")
-		)
-		(pin "6"
-			(uuid "7c573255-2924-4edd-8bd4-0c73e29f1a70")
-		)
-		(pin "7"
-			(uuid "5d82c897-7805-40a3-a77e-158082633536")
-		)
-		(pin "8"
-			(uuid "b125de73-df3d-4f53-affa-1d7938c0bb4e")
-		)
-		(pin "9"
-			(uuid "1537df75-8eeb-43a3-bb13-ece04848f078")
-		)
-		(pin "10"
-			(uuid "ff2b6e07-46c1-4d89-aaf2-7d3578f99601")
 		)
 		(pin "11"
-			(uuid "faf48c4a-a9c8-4c30-8464-212a90542cd9")
-		)
-		(pin "12"
-			(uuid "2c02ae2c-34a1-44db-849d-330412058ab1")
-		)
-		(pin "13"
-			(uuid "3ff3e438-d8e7-416d-9ce0-2b0e27307420")
+			(uuid "74ef37c9-f372-4797-a340-2ac696827e5e")
 		)
 		(pin "14"
-			(uuid "ec142367-2eba-4d59-879c-a1ffcc186ce5")
+			(uuid "8de0a30a-327a-4bc2-ac48-0afb96725fc2")
 		)
-		(pin "15"
-			(uuid "adc06ff1-ebde-4f84-9add-681cab8a17d8")
-		)
-		(pin "16"
-			(uuid "d669dfbb-3ebf-48a2-84e3-a9df8f270204")
-		)
-		(pin "17"
-			(uuid "d66d243d-187d-4e01-a64b-dac52bed063c")
-		)
-		(pin "18"
-			(uuid "f92e2152-fdc7-4dca-85b1-dd8151cb6a0d")
-		)
-		(pin "19"
-			(uuid "7a081940-2c4a-4317-b7bf-cf8f1703ed01")
-		)
-		(pin "2"
-			(uuid "d2d3a687-bd13-47b8-af86-27687953123b")
+		(pin "12"
+			(uuid "8e0b7ef3-32ec-42a7-8362-1dfaf077a646")
 		)
 		(pin "20"
-			(uuid "0b7e0e7b-7a6e-49bb-b748-0ec91d80e861")
+			(uuid "6fbb998f-9c3e-4280-bdc8-51f4697c60f8")
 		)
 		(pin "21"
-			(uuid "0a9c211b-8ac1-437b-9f3b-c9156d9973e1")
+			(uuid "18cbc3a5-90f7-4f11-b398-561ed94d4274")
 		)
-		(pin "22"
-			(uuid "a424afa4-257c-4f97-998b-3c9907b1c526")
+		(pin "16"
+			(uuid "009cd36c-e727-4ca2-98ae-ead62ecbb373")
 		)
-		(pin "23"
-			(uuid "12ad047b-1a83-47f1-81d4-5d981fe56ef2")
+		(pin "7"
+			(uuid "bcd6a68c-4f82-4987-a493-4146f7bb0696")
+		)
+		(pin "8"
+			(uuid "5d69e2a1-16f9-4403-a1c6-e0ba0bbaf484")
+		)
+		(pin "9"
+			(uuid "163ed952-043a-49a5-adab-48936dab6f1a")
+		)
+		(pin "10"
+			(uuid "30ccfce0-6dc7-4e32-ac89-19dac6ed0372")
+		)
+		(pin "19"
+			(uuid "b537ff69-01f5-49d2-a24c-52debc505c02")
+		)
+		(pin "2"
+			(uuid "54fed55a-5ee2-40f7-84f3-99bbef1b3571")
 		)
 		(pin "24"
-			(uuid "9e2b27fc-a223-44ca-8feb-0da7044cde9a")
+			(uuid "51e9bd6c-ec35-4fa8-a250-ac10e5838eb3")
 		)
-		(pin "25"
-			(uuid "b583fc72-edd9-4f9f-b9f4-41353ac077ee")
-		)
-		(pin "26"
-			(uuid "10017678-824d-482a-a05d-125e7c287544")
-		)
-		(instances
-			(project ""
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 170.18 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee158045-ccd3-48ac-9929-4f221adf6478")
-		(property "Reference" "#PWR02"
-			(at 170.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 170.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 170.18 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "d1fb8db4-7cae-4379-8415-de4aa2cd5e3e")
 		)
 		(pin "1"
-			(uuid "d539700a-21a3-4ab4-b7d2-88033f429a7e")
+			(uuid "d529cd06-5ad7-4311-9e98-26595b1edcad")
+		)
+		(pin "4"
+			(uuid "eef088f2-0773-451e-8437-01850ed1241e")
+		)
+		(pin "5"
+			(uuid "ed70b74f-2aa4-4fe3-88ba-5b26de52a135")
+		)
+		(pin "6"
+			(uuid "9c0d4ae2-c406-41b5-828f-19106b708c5a")
+		)
+		(pin "17"
+			(uuid "2c981133-1f46-4e05-8692-7806589f07b9")
+		)
+		(pin "18"
+			(uuid "3b2e0eed-edcf-4b81-a77a-90787d484cb6")
+		)
+		(pin "22"
+			(uuid "6ae9f5ec-557b-4d28-a19e-1a7cbdb67ed8")
+		)
+		(pin "23"
+			(uuid "b5900a99-e848-435f-8e37-9f04324675c1")
+		)
+		(pin "15"
+			(uuid "3e1ab974-9b35-470e-a7e0-cd86198f5cca")
+		)
+		(pin "13"
+			(uuid "02554684-faa0-402e-8d38-c699ebcbc20e")
 		)
 		(instances
 			(project ""
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
-					(reference "#PWR02")
+					(reference "U2")
 					(unit 1)
 				)
 			)
