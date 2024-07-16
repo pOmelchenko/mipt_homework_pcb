@@ -28,8 +28,8 @@
 					)
 				)
 			)
-			(property "Footprint" "MODULE"
-				(at 0 0 0)
+			(property "Footprint" "mipt:TQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm"
+				(at 48.006 29.464 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -626,7 +626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE"
+		(property "Footprint" "mipt:TQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm"
 			(at 53.34 58.42 0)
 			(effects
 				(font
