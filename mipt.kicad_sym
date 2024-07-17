@@ -523,7 +523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -532,8 +532,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DOCUMENTATION"
-			(at 0 0 0)
+		(property "Datasheet" "./datasheets/XS2184 Datasheet CN V1.0.pdf"
+			(at 39.878 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
