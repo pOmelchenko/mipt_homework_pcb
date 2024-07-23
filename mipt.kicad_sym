@@ -520,7 +520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mipt:HLK-7628N"
 			(at 0 0 0)
 			(effects
 				(font
