@@ -505,7 +505,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 42.164 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +513,7 @@
 			)
 		)
 		(property "Value" "HLK-7628N"
-			(at 0 0 0)
+			(at 47.244 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
