@@ -512,7 +512,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "HLK-7628N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -549,14 +549,14 @@
 		)
 		(symbol "HLK-7628N_1_0"
 			(rectangle
-				(start -40.64 -16.51)
-				(end 40.64 16.51)
+				(start -40.64 16.51)
+				(end 40.64 -16.51)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
