@@ -521,7 +521,7 @@
 			)
 		)
 		(property "Footprint" "mipt:HLK-7628N"
-			(at 0 0 0)
+			(at 50.8 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +530,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/HLK-7628N_V2.6.pdf"
-			(at 0 0 0)
+			(at 59.182 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,8 +1594,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "mipt:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_1"
+			(at 42.672 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
