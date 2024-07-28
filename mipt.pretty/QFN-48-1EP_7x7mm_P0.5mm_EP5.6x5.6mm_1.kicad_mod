@@ -260,75 +260,6 @@
 			)
 		)
 	)
-	(pad "" smd roundrect
-		(at -1.04 0)
-		(size 3.52 5.6)
-		(property pad_prop_heatsink)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0)
-		(chamfer_ratio 0.125)
-		(chamfer top_left)
-		(zone_connect 2)
-		(uuid "997d3193-01d5-4247-b6ea-4155312fff62")
-	)
-	(pad "" smd custom
-		(at 1.75 -0.5)
-		(size 0.84 0.5)
-		(property pad_prop_heatsink)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(zone_connect 2)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -0.68 -2.3) (xy -0.47 -2.3) (xy -0.47 -0.76) (xy 1.05 -0.76) (xy 1.05 0.33) (xy -0.68 0.33)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "ac1898e4-ada3-4e0b-963a-72ee64c4eb38")
-	)
-	(pad "" smd custom
-		(at 1.75 0.5)
-		(size 0.84 0.5)
-		(property pad_prop_heatsink)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(zone_connect 2)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -0.68 2.3) (xy -0.47 2.3) (xy -0.47 0.76) (xy 1.05 0.76) (xy 1.05 -0.33) (xy -0.68 -0.33)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "4005e107-7a31-4710-b2b3-c98f00484558")
-	)
-	(pad "" smd rect
-		(at 2.2 2.18)
-		(size 1.18 1.24)
-		(property pad_prop_heatsink)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(zone_connect 2)
-		(uuid "fca6e1f0-2a24-402d-a0f3-67a52d5a3ac6")
-	)
-	(pad "" smd rect
-		(at 2.21 -2.18)
-		(size 1.18 1.24)
-		(property pad_prop_heatsink)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(zone_connect 2)
-		(uuid "bdc9e61e-fd88-41c1-8131-46771e92f0bf")
-	)
 	(pad "1" smd roundrect
 		(at -3.4375 -2.75)
 		(size 0.875 0.25)
@@ -664,6 +595,75 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "30a75555-18dc-481b-afa9-ba7c5f3aac33")
+	)
+	(pad "49" smd roundrect
+		(at -1.04 0)
+		(size 3.52 5.6)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.125)
+		(chamfer top_left)
+		(zone_connect 2)
+		(uuid "997d3193-01d5-4247-b6ea-4155312fff62")
+	)
+	(pad "50" smd rect
+		(at 2.21 -2.18)
+		(size 1.18 1.24)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "bdc9e61e-fd88-41c1-8131-46771e92f0bf")
+	)
+	(pad "51" smd custom
+		(at 1.75 -0.5)
+		(size 0.84 0.5)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.68 -2.3) (xy -0.47 -2.3) (xy -0.47 -0.76) (xy 1.05 -0.76) (xy 1.05 0.33) (xy -0.68 0.33)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ac1898e4-ada3-4e0b-963a-72ee64c4eb38")
+	)
+	(pad "52" smd custom
+		(at 1.75 0.5)
+		(size 0.84 0.5)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.68 2.3) (xy -0.47 2.3) (xy -0.47 0.76) (xy 1.05 0.76) (xy 1.05 -0.33) (xy -0.68 -0.33)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "4005e107-7a31-4710-b2b3-c98f00484558")
+	)
+	(pad "53" smd rect
+		(at 2.2 2.18)
+		(size 1.18 1.24)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "fca6e1f0-2a24-402d-a0f3-67a52d5a3ac6")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.wrl"
 		(offset
