@@ -3523,104 +3523,115 @@
 		)
 	)
 	(no_connect
-		(at 71.12 66.04)
+		(at 60.96 64.77)
 		(uuid "0047e238-69c2-490e-8330-94516a764bf6")
 	)
 	(no_connect
-		(at 71.12 53.34)
+		(at 60.96 52.07)
 		(uuid "0cfd5dae-fb94-44b1-97f5-2cf554195821")
 	)
 	(no_connect
-		(at 30.48 71.12)
+		(at 20.32 69.85)
 		(uuid "1265e044-3f4d-4e83-a67c-456c0b285027")
 	)
 	(no_connect
-		(at 71.12 55.88)
+		(at 60.96 54.61)
 		(uuid "12761139-8b67-4efe-b710-8f49ff7fa7b9")
 	)
 	(no_connect
-		(at 71.12 35.56)
+		(at 60.96 34.29)
 		(uuid "1433a007-12f9-4e81-83db-647083dc53f3")
 	)
 	(no_connect
-		(at 50.8 20.32)
+		(at 40.64 19.05)
 		(uuid "162fbc9a-3e7e-4ca3-b71c-49468900b8b1")
 	)
 	(no_connect
-		(at 30.48 40.64)
+		(at 20.32 39.37)
 		(uuid "2090491e-f64e-41d7-b63d-ce9188f6063e")
 	)
 	(no_connect
-		(at 71.12 45.72)
+		(at 60.96 44.45)
 		(uuid "2e0370d3-51f0-452d-ac44-d162a7a88e05")
 	)
 	(no_connect
-		(at 30.48 43.18)
+		(at 20.32 41.91)
 		(uuid "32440ecd-3c50-47a7-959c-95ba75f87971")
 	)
 	(no_connect
-		(at 30.48 38.1)
+		(at 20.32 36.83)
 		(uuid "3ae2d35c-a236-46bd-847e-da9e29c27b5e")
 	)
 	(no_connect
-		(at 30.48 66.04)
+		(at 20.32 64.77)
 		(uuid "4259caec-befe-4c1b-884e-bfd8649d29ae")
 	)
 	(no_connect
-		(at 30.48 63.5)
+		(at 20.32 62.23)
 		(uuid "53430167-84c5-47ba-92e3-1cfc0b933741")
 	)
 	(no_connect
-		(at 71.12 43.18)
+		(at 60.96 41.91)
 		(uuid "63072779-1fad-42be-8d90-fe8b057d4e92")
 	)
 	(no_connect
-		(at 71.12 48.26)
+		(at 60.96 46.99)
 		(uuid "6435fc7b-0f0c-4e08-99b8-19278c326d05")
 	)
 	(no_connect
-		(at 71.12 33.02)
+		(at 60.96 31.75)
 		(uuid "644ae480-bdcb-4320-833e-37f1e699d814")
 	)
 	(no_connect
-		(at 71.12 63.5)
+		(at 60.96 62.23)
 		(uuid "7ac7ea31-ff03-4422-bb4e-2f2e685c2cca")
 	)
 	(no_connect
-		(at 71.12 38.1)
+		(at 60.96 36.83)
 		(uuid "7d74c0c3-e3be-48e2-ac50-86d6d523787a")
 	)
 	(no_connect
-		(at 71.12 50.8)
+		(at 60.96 49.53)
 		(uuid "9c27d9d0-e82b-461b-9c64-53fac79bc6cb")
 	)
 	(no_connect
-		(at 71.12 58.42)
+		(at 60.96 57.15)
 		(uuid "a1c1b404-ff13-431c-a437-538b31aba8ba")
 	)
 	(no_connect
-		(at 71.12 68.58)
+		(at 60.96 67.31)
 		(uuid "c3b7a94b-b48e-462f-997d-418c0fd357c0")
 	)
 	(no_connect
-		(at 71.12 71.12)
+		(at 60.96 69.85)
 		(uuid "e54cc683-7b65-46a1-bbbb-cb8409e9b5ab")
 	)
 	(no_connect
-		(at 30.48 68.58)
+		(at 20.32 67.31)
 		(uuid "e761ef30-f269-43cd-8f1f-d4a00d793a01")
 	)
 	(no_connect
-		(at 71.12 40.64)
+		(at 60.96 39.37)
 		(uuid "efed733f-372d-412e-9c87-8307122d0b75")
 	)
 	(no_connect
-		(at 71.12 60.96)
+		(at 60.96 59.69)
 		(uuid "f0034d32-a9d1-472e-aa35-30f18f539c93")
+	)
+	(text "Разработать библиотечные символы для компонентов:\n- bl0910\n- XS2184\n- HLK-7628N\n- AW9523BTQR\n\nДокументация на каждый приложена к занятию\n\nПодобрать подходящие посадочные места из стандартной библиотеки KiCAD. \nЕсли таковых нет, то выполнить разработку требуемых посадочных мест. \n"
+		(exclude_from_sim no)
+		(at 189.23 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3d5d1a3-7222-4901-bc9c-dbeb39785723")
 	)
 	(symbol
 		(lib_id "mipt:XS2184")
-		(at 54.61 130.81 0)
+		(at 45.72 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3628,7 +3639,7 @@
 		(dnp no)
 		(uuid "1919da9b-ad4d-403e-b43a-812fe6953133")
 		(property "Reference" "U2"
-			(at 68.326 95.25 0)
+			(at 59.436 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3648,7 @@
 			)
 		)
 		(property "Value" "XS2184"
-			(at 68.072 91.694 0)
+			(at 59.182 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3657,7 @@
 			)
 		)
 		(property "Footprint" "mipt:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_1"
-			(at 54.61 130.81 0)
+			(at 45.72 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3666,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/XS2184 Datasheet CN V1.0.pdf"
-			(at 94.488 99.314 0)
+			(at 85.598 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 130.81 0)
+			(at 45.72 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "mipt:HLK-7628N")
-		(at 153.67 49.53 0)
+		(at 130.81 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3851,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "23a954bb-5aa3-4a8b-883b-bd65fcbedda3")
 		(property "Reference" "U4"
-			(at 195.58 48.2599 0)
+			(at 172.72 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3871,7 @@
 			)
 		)
 		(property "Value" "HLK-7628N"
-			(at 195.58 50.7999 0)
+			(at 172.72 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" "mipt:HLK-7628N"
-			(at 153.67 49.53 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/HLK-7628N_V2.6.pdf"
-			(at 153.67 49.53 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +3898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 49.53 0)
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4085,7 @@
 	)
 	(symbol
 		(lib_id "mipt:AW9523B")
-		(at 50.8 52.07 0)
+		(at 40.64 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4083,7 +4094,7 @@
 		(fields_autoplaced yes)
 		(uuid "b06064d2-cc8d-486e-9d5e-405749715540")
 		(property "Reference" "U1"
-			(at 50.8 78.74 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4102,7 @@
 			)
 		)
 		(property "Value" "AW9523B"
-			(at 50.8 81.28 0)
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4110,7 @@
 			)
 		)
 		(property "Footprint" "mipt:TQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm"
-			(at 50.8 52.07 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4119,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/AW9523+English+Datasheet.pdf"
-			(at 96.52 19.304 0)
+			(at 86.36 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 52.07 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4219,7 @@
 	)
 	(symbol
 		(lib_id "mipt:bl0910")
-		(at 143.51 129.54 0)
+		(at 105.41 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4217,7 +4228,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1e12786-0461-41f3-a83e-370fb3fdee99")
 		(property "Reference" "U3"
-			(at 148.2441 95.25 0)
+			(at 110.1441 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4237,7 @@
 			)
 		)
 		(property "Value" "BL0910"
-			(at 148.2441 97.79 0)
+			(at 110.1441 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4246,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 182.88 90.678 0)
+			(at 144.78 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4255,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/bl0910.pdf"
-			(at 176.022 95.25 0)
+			(at 137.922 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 129.54 0)
+			(at 105.41 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

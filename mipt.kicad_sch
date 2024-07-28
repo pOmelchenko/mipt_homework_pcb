@@ -26,7 +26,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "home work 2.kicad_sch"
+		(property "Sheetfile" "./home works/home work 02.kicad_sch"
 			(at 17.78 25.9846 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "home work 3.kicad_sch"
+		(property "Sheetfile" "./home works/home work 03.kicad_sch"
 			(at 17.78 38.6846 0)
 			(effects
 				(font
