@@ -3638,7 +3638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1919da9b-ad4d-403e-b43a-812fe6953133")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 59.436 107.95 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/c73feff7-a444-4fc1-b029-86822a883591"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3861,7 +3861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a954bb-5aa3-4a8b-883b-bd65fcbedda3")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 172.72 140.9699 0)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/c73feff7-a444-4fc1-b029-86822a883591"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1e12786-0461-41f3-a83e-370fb3fdee99")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 110.1441 22.86 0)
 			(effects
 				(font
@@ -4419,7 +4419,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/c73feff7-a444-4fc1-b029-86822a883591"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
