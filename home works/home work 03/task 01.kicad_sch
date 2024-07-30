@@ -598,16 +598,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 120.65) (xy 110.49 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0717d133-2d41-46f1-adab-e4006c4231a0")
-	)
-	(wire
-		(pts
 			(xy 72.39 132.08) (xy 72.39 135.89)
 		)
 		(stroke
@@ -618,13 +608,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 120.65) (xy 100.33 124.46)
+			(xy 62.23 120.65) (xy 62.23 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10005538-d921-4b42-add7-6a233c3b2a8f")
+		(uuid "139c5dde-f96e-4382-ae37-a2ac20f6666e")
 	)
 	(wire
 		(pts
@@ -645,16 +635,6 @@
 			(type default)
 		)
 		(uuid "16518e2f-98e6-45bf-b4d1-7c99ff1ffcd5")
-	)
-	(wire
-		(pts
-			(xy 120.65 120.65) (xy 120.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff89db5-062f-4634-bd8e-8ab11c5919e2")
 	)
 	(wire
 		(pts
@@ -745,16 +725,6 @@
 			(type default)
 		)
 		(uuid "4b6d9ece-ffae-42a0-a04f-b0d29894f000")
-	)
-	(wire
-		(pts
-			(xy 62.23 120.65) (xy 62.23 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ed3622-ef50-4d1b-a2bb-72c171ddd51c")
 	)
 	(wire
 		(pts
@@ -888,6 +858,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 120.65) (xy 110.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84255cee-5b9d-4fbb-b148-b4fe53e6d147")
+	)
+	(wire
+		(pts
 			(xy 91.44 135.89) (xy 81.28 135.89)
 		)
 		(stroke
@@ -925,16 +905,6 @@
 			(type default)
 		)
 		(uuid "8db12b47-27d0-4eda-b95c-8728c7d68c4b")
-	)
-	(wire
-		(pts
-			(xy 72.39 120.65) (xy 72.39 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c23cc8-908c-4d23-9762-05ac923ccb76")
 	)
 	(wire
 		(pts
@@ -1008,16 +978,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 120.65) (xy 81.28 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaaa412a-ec34-446c-ae20-f00c5251d31b")
-	)
-	(wire
-		(pts
 			(xy 120.65 132.08) (xy 120.65 135.89)
 		)
 		(stroke
@@ -1088,6 +1048,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 120.65) (xy 72.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec49079-1c16-4a25-917a-72b00fce743e")
+	)
+	(wire
+		(pts
 			(xy 110.49 109.22) (xy 110.49 113.03)
 		)
 		(stroke
@@ -1105,16 +1075,6 @@
 			(type default)
 		)
 		(uuid "c2b6b8f4-722a-4e57-b66e-9258e8946d2e")
-	)
-	(wire
-		(pts
-			(xy 91.44 120.65) (xy 91.44 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c47b2dbc-86b5-46f8-ba4f-7626e9f9ddcd")
 	)
 	(wire
 		(pts
@@ -1168,6 +1128,36 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 120.65) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db687a78-a6fb-4ca9-93b6-735558c8bd1f")
+	)
+	(wire
+		(pts
+			(xy 81.28 120.65) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf93dc4-2d57-4671-886e-5324a404cc46")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 100.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3592da1-c8af-461b-861f-35155aa4030a")
+	)
+	(wire
+		(pts
 			(xy 120.65 135.89) (xy 110.49 135.89)
 		)
 		(stroke
@@ -1175,6 +1165,16 @@
 			(type default)
 		)
 		(uuid "e6b63965-5772-4466-a64d-87dac164f7d2")
+	)
+	(wire
+		(pts
+			(xy 120.65 120.65) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee496697-67e1-4907-9901-896c8dff2d66")
 	)
 	(wire
 		(pts
@@ -1267,146 +1267,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10438895-1006-4106-93a4-755e65dc33e3")
-		(property "Reference" "D19"
-			(at 124.46 128.5874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 124.46 131.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 120.65 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26c3b82-1bca-4343-819a-f3886426ed3b")
-		)
-		(pin "2"
-			(uuid "bf451ade-c0f3-4191-8896-59e4ccd60da3")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 72.39 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11b19c54-5e53-4d2d-82d2-88cd53c04ce0")
-		(property "Reference" "D8"
-			(at 76.2 117.1574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 76.2 119.6974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 72.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae69d2ae-0dd3-48bb-9fc6-974343bb573b")
-		)
-		(pin "2"
-			(uuid "f360de1d-d468-4981-b5f4-b9ed26feedc5")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 52.07 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1424,7 +1284,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 55.88 131.1274 90)
 			(effects
 				(font
@@ -1547,16 +1407,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 91.44 116.84 90)
+		(at 110.49 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b8d6926-4a69-40be-88d8-f8563e135eac")
-		(property "Reference" "D12"
-			(at 95.25 117.1574 90)
+		(uuid "1e75e8aa-e9ea-4d7b-b7aa-c524f56ce774")
+		(property "Reference" "D16"
+			(at 114.3 117.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,8 +1424,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 95.25 119.6974 90)
+		(property "Value" "Red"
+			(at 114.3 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 116.84 0)
+			(at 110.49 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 116.84 0)
+			(at 110.49 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1452,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 91.44 116.84 0)
+			(at 110.49 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,15 +1461,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc80c408-93dd-4cb0-b6a2-9e2702aebc05")
+			(uuid "0308003d-3ac4-4e25-90b7-173be0889013")
 		)
 		(pin "2"
-			(uuid "531f371e-17fb-4e5f-b258-b54ebe303f07")
+			(uuid "3ae41a7a-00f4-4efd-8fab-8db861d76c43")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D12")
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 72.39 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "207b3b7d-a803-494d-aa48-d2f41ab24532")
+		(property "Reference" "D8"
+			(at 76.2 117.1574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 76.2 119.6974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 72.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bacee41-64d3-4d33-9509-8337257df885")
+		)
+		(pin "2"
+			(uuid "86a27c0e-ac1e-4a1f-9886-52329b3b81fd")
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -1752,6 +1682,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 91.44 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ce44824-3ca6-4954-be49-e0004372a907")
+		(property "Reference" "D13"
+			(at 95.25 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 95.25 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b600a770-d34d-431c-a820-04a981d5b6cd")
+		)
+		(pin "2"
+			(uuid "bc64dd03-0db8-4e5b-a5b5-a215166e5831")
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 62.23 105.41 180)
 		(unit 1)
@@ -1823,16 +1823,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 110.49 116.84 90)
+		(at 100.33 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42229743-5cf9-4d22-bc0d-1083ac42d1ce")
-		(property "Reference" "D16"
-			(at 114.3 117.1574 90)
+		(uuid "53f5ad6e-4b91-421b-b11f-301ce09a8736")
+		(property "Reference" "D14"
+			(at 104.14 117.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,8 +1840,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 114.3 119.6974 90)
+		(property "Value" "Red"
+			(at 104.14 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 116.84 0)
+			(at 100.33 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 116.84 0)
+			(at 100.33 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1868,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 110.49 116.84 0)
+			(at 100.33 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,155 +1877,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "007f4086-ebf8-4f62-9611-1fd111e45566")
+			(uuid "b96e5479-b450-4d1b-a751-4e18d95a16f4")
 		)
 		(pin "2"
-			(uuid "bd92adaf-35cf-4520-bce3-751dd9fe90b1")
+			(uuid "a9520318-8887-4b8c-941f-cdd82f0e47db")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 62.23 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42b7ae86-7644-4fb3-91de-5b68193e03e8")
-		(property "Reference" "D6"
-			(at 66.04 117.1574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 66.04 119.6974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33851168-c85c-4378-af94-98d495ddc9b8")
-		)
-		(pin "2"
-			(uuid "7c87bed5-037a-4938-8a44-c11d32f9c286")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 100.33 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49df4493-efe2-4077-8ac4-e4cff9a592ad")
-		(property "Reference" "D15"
-			(at 104.14 128.5874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 104.14 131.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 100.33 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ccb4caa-f0ae-4f66-9099-a4f4447a802c")
-		)
-		(pin "2"
-			(uuid "f711b133-549d-4819-957e-f2173ea79a3e")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2050,7 +1910,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 55.88 119.6974 90)
 			(effects
 				(font
@@ -2103,16 +1963,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 62.23 128.27 90)
+		(at 91.44 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5831ec5e-076d-46ec-b845-b3fef4e1e28d")
-		(property "Reference" "D7"
-			(at 66.04 128.5874 90)
+		(uuid "55a8c422-48ee-4f4b-a973-7aaa0e747bd5")
+		(property "Reference" "D12"
+			(at 95.25 117.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,8 +1980,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 66.04 131.1274 90)
+		(property "Value" "Red"
+			(at 95.25 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +1990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 128.27 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +1999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 128.27 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2008,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 62.23 128.27 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,155 +2017,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "60604839-e0cc-412b-9cfc-aeefcf20db70")
+			(uuid "c8840e34-c30f-4a6f-a3ef-7b7d466cc844")
 		)
 		(pin "2"
-			(uuid "4bb0f001-d4ab-4aee-a754-ddc2efe375a5")
+			(uuid "6303a520-dc9f-479b-8d31-728885be6c7a")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 72.39 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60992c9f-79f0-4929-a797-281b8aca3a43")
-		(property "Reference" "D9"
-			(at 76.2 128.5874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 76.2 131.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 72.39 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93295493-e34a-4eda-984b-73d997c409e8")
-		)
-		(pin "2"
-			(uuid "ddbea10f-ad3a-4ef4-8373-e3cc50a4ba37")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 91.44 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70d5c55b-e23f-4d33-b257-ded8de247dc0")
-		(property "Reference" "D13"
-			(at 95.25 128.5874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 95.25 131.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a40f6c1-89d9-4fda-8664-d78179765552")
-		)
-		(pin "2"
-			(uuid "bebbd209-2f9c-45fe-bd32-23414a4e5553")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2379,16 +2099,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 100.33 116.84 90)
+		(at 120.65 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7370ac27-0386-4823-ac1f-26ea34b41be6")
-		(property "Reference" "D14"
-			(at 104.14 117.1574 90)
+		(uuid "753438f3-222f-492c-b9b8-d5248b122c12")
+		(property "Reference" "D19"
+			(at 124.46 128.5874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,8 +2116,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 104.14 119.6974 90)
+		(property "Value" "Red"
+			(at 124.46 131.1274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 116.84 0)
+			(at 120.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 116.84 0)
+			(at 120.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2144,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 100.33 116.84 0)
+			(at 120.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,15 +2153,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3ad80ce-1322-42a5-8ddd-8ba1fbcf8aca")
+			(uuid "ef474890-8be0-4361-be82-5702b0d00851")
 		)
 		(pin "2"
-			(uuid "93818818-6424-47b2-919e-be3a11182487")
+			(uuid "953544d4-6fe5-41d4-8d3f-01d709e4427e")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D14")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2449,16 +2169,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 81.28 116.84 90)
+		(at 100.33 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b785365-ff05-4589-962a-c421b6a36f7b")
-		(property "Reference" "D10"
-			(at 85.09 117.1574 90)
+		(uuid "75c2207d-baee-46b4-8ee0-7f8fd70b9e94")
+		(property "Reference" "D15"
+			(at 104.14 128.5874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,8 +2186,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 85.09 119.6974 90)
+		(property "Value" "Red"
+			(at 104.14 131.1274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 116.84 0)
+			(at 100.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 116.84 0)
+			(at 100.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2214,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 81.28 116.84 0)
+			(at 100.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,15 +2223,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "96b5c27d-5da7-4791-bf68-27f22cf2dc5f")
+			(uuid "49bb8dfe-8240-4149-ae3c-a773e1a00edd")
 		)
 		(pin "2"
-			(uuid "2bf73655-a3c2-4250-8276-4e5a26914de2")
+			(uuid "681ca41f-ce04-4ae2-8513-3da5825a0d01")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D10")
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 110.49 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8a7229-9dba-412e-838e-81f6dd341367")
+		(property "Reference" "D17"
+			(at 114.3 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 114.3 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a4b0236-3db2-4b79-98d8-91e5b16a0e85")
+		)
+		(pin "2"
+			(uuid "e23b9350-40b4-453e-a706-e9d0c914e600")
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -2656,16 +2446,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 81.28 128.27 90)
+		(at 120.65 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a24bb47b-f367-4313-8c63-732acb9fcf89")
-		(property "Reference" "D11"
-			(at 85.09 128.5874 90)
+		(uuid "a16b0f9a-a7f7-4f0d-912a-b3780212f6ed")
+		(property "Reference" "D18"
+			(at 124.46 117.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,8 +2463,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 85.09 131.1274 90)
+		(property "Value" "Red"
+			(at 124.46 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 128.27 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 128.27 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2491,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 81.28 128.27 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,15 +2500,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffcf64fa-9188-4eb8-9bf3-00f94d319965")
+			(uuid "597eb3d1-c372-4919-a0b2-67037e80ddd8")
 		)
 		(pin "2"
-			(uuid "de591948-7b0c-4e8a-bf56-ddc2ba0f67ea")
+			(uuid "1406a7d9-9375-418e-955a-cf0b4259abdd")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D11")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2796,6 +2586,76 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 81.28 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7cc2f8-80ed-4bf4-bc02-029a4dca9625")
+		(property "Reference" "D10"
+			(at 85.09 117.1574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 85.09 119.6974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6bed47-7b7d-4844-81cd-6b0c7ec07583")
+		)
+		(pin "2"
+			(uuid "ef4742ad-5dd9-4d02-a3c6-00bddf275cb6")
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 76.2 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2857,6 +2717,146 @@
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 81.28 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a15bd1-d560-42cd-b4c9-ef35b05a04d3")
+		(property "Reference" "D11"
+			(at 85.09 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 85.09 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c343b172-589a-4502-8169-b636d3377bde")
+		)
+		(pin "2"
+			(uuid "ac61b67f-ff75-4651-82dd-fba6644ff526")
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 72.39 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f4f385-956c-472e-a263-b97b877ad4d2")
+		(property "Reference" "D9"
+			(at 76.2 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 76.2 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6f0a8ed-96f8-49f6-a65b-eac9c1797804")
+		)
+		(pin "2"
+			(uuid "549b256b-386c-4545-a7a2-4468132b353a")
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3274,16 +3274,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 116.84 90)
+		(at 62.23 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf22303b-1710-4be9-a106-dd1990d274a0")
-		(property "Reference" "D18"
-			(at 124.46 117.1574 90)
+		(uuid "d3f607b4-6ff9-43b2-8a1b-39b5c7465ed9")
+		(property "Reference" "D6"
+			(at 66.04 117.1574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,8 +3291,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 124.46 119.6974 90)
+		(property "Value" "Red"
+			(at 66.04 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3319,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,15 +3328,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fabb325-55df-4ecc-852e-0c3d91bcab75")
+			(uuid "13106a99-5423-40dc-bfa9-39ae13e73e86")
 		)
 		(pin "2"
-			(uuid "f0b99736-11d1-40d8-9c84-3f831a0e558d")
+			(uuid "e8ad8eb1-cf32-4855-a5fc-92dbfd7d6ef0")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D18")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3403,6 +3403,76 @@
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef371b7c-80a5-4224-9a87-dfdbf905b4f8")
+		(property "Reference" "D7"
+			(at 66.04 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 66.04 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 62.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7de72b9c-bd1d-4e7e-b8ec-9d8ac7d32c30")
+		)
+		(pin "2"
+			(uuid "264c2016-35e1-4085-8d09-be267e6ba4d3")
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3537,76 +3607,6 @@
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 110.49 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff1e18d3-d549-49c7-8c5a-f606f987b7ac")
-		(property "Reference" "D17"
-			(at 114.3 128.5874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 114.3 131.1274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fd8193b-6841-4603-bae6-9e4c0fb37c2e")
-		)
-		(pin "2"
-			(uuid "4e35eac4-0eb4-48c7-9782-973f4e354dd2")
-		)
-		(instances
-			(project "mipt"
-				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/6ca349d5-b34a-4528-8a27-eeb21e406992"
-					(reference "D17")
 					(unit 1)
 				)
 			)
