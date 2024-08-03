@@ -5,4 +5,48 @@
 	(uuid "264baa99-d23d-4898-be37-9747e0c67b85")
 	(paper "A4")
 	(lib_symbols)
+	(text "R = 1.8 кОм\nC = 0.47 нФ\n\nτ = R * C = 1.8 Ом * 0.47 нФ = 0.846 мкс\n\nзарядка до 95% = 3τ = 2.538 мкс"
+		(exclude_from_sim no)
+		(at 152.908 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0cc352a2-601f-4f28-9d9b-b48ceb96ce6b")
+	)
+	(text "R = 82 Ом\nC = 2.2 мкФ\n\nτ = R * C = 82 * 0.0000022 = 180.4 мс\n\nзарядка до 95% = 3τ = 541.2 мс"
+		(exclude_from_sim no)
+		(at 25.908 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "794f57de-7630-4fd3-bfa6-735a6db7a89a")
+	)
+	(text "Задача 3 \n- Произвести расчет времени заряда конденсатора до 95%:\n  - 2,2 мкФ, при сопротивлении 82 Ом;\n  - 33 мкФ, при сопротивлении 6,8 Ом;\n  - 0,47 нФ, при сопротивлении 1,8 кОм."
+		(exclude_from_sim no)
+		(at 25.146 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "843c3110-6ab4-474b-9163-2f17d84d3b0b")
+	)
+	(text "R = 6.8 Ом\nC = 33 мкФ\n\nτ = R * C = 6.8 * 33 мкФ = 224.4 мс\n\nзарядка до 95% = 3τ = 673.2 мс"
+		(exclude_from_sim no)
+		(at 89.408 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c3305ab3-5353-4c18-9daf-08f2796dc8bf")
+	)
 )

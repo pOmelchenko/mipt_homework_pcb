@@ -1186,6 +1186,17 @@
 		)
 		(uuid "ef3c261c-2603-40bc-8d52-e834779c784d")
 	)
+	(text "U_{D2..D3} = 2.1V\nI_{D2..D3} = 0.02A\n\nU_{R2} = 11.7 - 2.1 - 2.1 = 4.5V\nR_{R2} =  U_{R2} / I_{D2..D3} = 4.5 / 0.02 = 225Ω → 240Ω\n\nP_{R2} = U_{R2} * I_{D2..D3} = 11.7 * 0.02 = 0.234W → 0.25W"
+		(exclude_from_sim no)
+		(at 138.43 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a55cc95-aeda-4547-be06-92de2c66086f")
+	)
 	(text "Задача 1\n- Рассчитать номинал и мощность резистора для подключения одного белого светодиода к источнику напряжения 7,4 В.\n- Рассчитать номинал и мощность резистора для последовательного подключения двух зеленых светодиодов к источнику напряжения 11,7 В.\n- Рассчитать номинал и мощность резисторов для последовательно-параллельного подключения шестнадцати красных светодиодов к источнику напряжения 12,7 В.\n"
 		(exclude_from_sim no)
 		(at 19.812 23.876 0)
@@ -1196,6 +1207,28 @@
 			(justify left)
 		)
 		(uuid "0c80a5ab-8ff9-45d1-b1ef-a4774d11e533")
+	)
+	(text "U_{D1} = 3.2V\nI_{D1} = 0.05A\n\nU_{R1} = 7.4 - 3.2 = 4.4V\nR_{R1} = U_{R1} / I_{D1} = 4.4 / 0.05 = 88Ω → 91Ω\n\nP_{R1} = U_{R1} * I_{D1} = 4.4 * 0.05 = 0.22W → 0.25W"
+		(exclude_from_sim no)
+		(at 138.684 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d62b03e-f752-438b-965b-84c0f246b42e")
+	)
+	(text "U_{D4..D17} = 5V\nI_{D4..D17} = 0.02A\n\nU_{R3..R10} = 12.7 - 5 - 5 = 2.7V\nR_{R3..R10} = U_{R3..R10} / I_{D4..D17} = 2.7 / 0.02 = 135Ω → 150Ω\n\nP_{R2} = U_{R2} * I_{D2..D3} = 12.7 * 0.02 = 0.254W → 0.25W"
+		(exclude_from_sim no)
+		(at 138.938 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a91a94eb-92f6-4424-b17d-003f6e59361f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1215,7 +1248,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "91"
 			(at 69.85 46.99 90)
 			(effects
 				(font
@@ -1354,7 +1387,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 74.93 106.6799 0)
 			(effects
 				(font
@@ -1630,7 +1663,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 83.82 106.6799 0)
 			(effects
 				(font
@@ -1770,7 +1803,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 64.77 106.6799 0)
 			(effects
 				(font
@@ -2324,7 +2357,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 89.2175 69.85 0)
 			(effects
 				(font
@@ -2393,7 +2426,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 113.03 106.6799 0)
 			(effects
 				(font
@@ -2533,7 +2566,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 102.87 106.6799 0)
 			(effects
 				(font
@@ -2672,7 +2705,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 77.7875 69.85 0)
 			(effects
 				(font
@@ -2949,7 +2982,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 123.19 106.6799 0)
 			(effects
 				(font
@@ -3019,7 +3052,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 54.61 106.6799 0)
 			(effects
 				(font
@@ -3089,7 +3122,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 93.98 106.6799 0)
 			(effects
 				(font
@@ -3496,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "240"
 			(at 64.77 71.12 90)
 			(effects
 				(font
