@@ -81,6 +81,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 17.78 44.45)
+		(size 34.29 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9b8cd78-f2f2-4446-aa11-838913d7a5bd")
+		(property "Sheetname" "Домашняя работа 4"
+			(at 17.78 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./home works/home work 04.kicad_sch"
+			(at 17.78 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

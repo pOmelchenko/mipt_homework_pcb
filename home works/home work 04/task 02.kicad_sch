@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "264baa99-d23d-4898-be37-9747e0c67b85")
+	(paper "A4")
+	(lib_symbols)
+	(text "Задача 2\nВыполнить реализацию сумеречного датчика с возможностью регулировки порога срабатывания. При затухании освещения требуется включать нагрузку (лампа накаливания 12 В). \n"
+		(exclude_from_sim no)
+		(at 25.654 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "14febd0e-0aa0-4d9e-b348-fb4b76810908")
+	)
+)
