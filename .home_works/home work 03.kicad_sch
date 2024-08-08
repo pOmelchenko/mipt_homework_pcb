@@ -37,7 +37,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "./home work 03/task 01.kicad_sch"
+		(property "Sheetfile" "home work 03/task 01.kicad_sch"
 			(at 24.13 89.4846 0)
 			(effects
 				(font
@@ -75,7 +75,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "./home work 03/task 03.kicad_sch"
+		(property "Sheetfile" "home work 03/task 03.kicad_sch"
 			(at 128.27 89.4846 0)
 			(effects
 				(font
@@ -113,7 +113,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "./home work 03/task 02.kicad_sch"
+		(property "Sheetfile" "home work 03/task 02.kicad_sch"
 			(at 76.2 89.4846 0)
 			(effects
 				(font
@@ -128,11 +128,6 @@
 					(page "5")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )
