@@ -889,7 +889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ebb45c9-529c-417d-8459-09577377e012")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 162.56 135.8899 0)
 			(effects
 				(font
@@ -943,7 +943,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -959,7 +959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fbd56dc-d243-4c6b-a343-dde9c57aaf39")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 162.56 72.3899 0)
 			(effects
 				(font
@@ -1013,7 +1013,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1029,7 +1029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe31d18-fe51-416c-b8e4-1f46b754d338")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 40.64 58.4199 0)
 			(effects
 				(font
@@ -1083,7 +1083,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1165,7 +1165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38f27c91-2131-4d90-8306-9a7d9dba4b55")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 149.86 135.8899 0)
 			(effects
 				(font
@@ -1219,7 +1219,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1302,7 +1302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50569d3b-ac90-456f-8309-ef6df4bf08df")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 40.64 137.1599 0)
 			(effects
 				(font
@@ -1356,7 +1356,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1504,7 +1504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8409cb-c07a-4908-883d-33ee11d423ee")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 149.86 72.3899 0)
 			(effects
 				(font
@@ -1558,7 +1558,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97bd488c-d64e-464a-822f-13eadce58c28")
-		(property "Reference" "R?"
+		(property "Reference" "R16"
 			(at 40.64 121.9199 0)
 			(effects
 				(font
@@ -1694,7 +1694,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1777,7 +1777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c465b73-6d7d-4459-93fd-0604d3e1fe0d")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 40.64 73.6599 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1914,7 +1914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a345f175-af9c-4790-927c-96a36d70242d")
-		(property "Reference" "R?"
+		(property "Reference" "R18"
 			(at 149.86 120.6499 0)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea8b21a-f6ad-445a-99bd-b6318228071b")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 149.86 57.1499 0)
 			(effects
 				(font
@@ -2104,7 +2104,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/cfdf2a98-d53d-4979-9485-05dd773be1bb/ca31be19-098b-42b9-ad83-8f969410d312"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
