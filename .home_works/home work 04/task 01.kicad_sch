@@ -947,7 +947,7 @@
 		)
 		(uuid "c649121d-0f5f-4417-94a0-ebcb7b6df284")
 	)
-	(text "Задача 1\nРассчитать и выполнить подключение нагрузки через PNP транзистор.\n\nНагрузкой является лампа накаливания из набора (напряжение лампы 12 В, ток измерить мультиметром)\n\nУправление включением производить тактовой кнопкой (кнопка нажата- лампа горит). Напряжение управляющего сигнала 3.3 В.\n"
+	(text "Задача 1\nРассчитать и выполнить подключение нагрузки через PNP транзистор.\n\nНагрузкой является лампа накаливания из набора (напряжение лампы 12 В, ток измерить мультиметром)\n\nУправление включением производить тактовой кнопкой (кнопка нажата - лампа горит). Напряжение управляющего сигнала 3.3 В.\n"
 		(exclude_from_sim no)
 		(at 25.4 25.654 0)
 		(effects
@@ -958,7 +958,7 @@
 		)
 		(uuid "0c80a5ab-8ff9-45d1-b1ef-a4774d11e533")
 	)
-	(text "I_{C} = 100 mA\nV_{in} = +12V\nV_{control} = +3.3V\n\nhfe = 120\nV_{BE} = 0.8V\nV_{CE} = 0.06V\n\nI_{C} = I_{B} * hfe\nI_{B} = 100 / 120 = 0.83 mA\nR_{B} = (V_{control} - V_{BE}) / I_{B} = (3.3 - 0.8) / 0.83 = 3.012\n\nP = I_{C} * V_{CE} = 0.1 * 0.06 = 0.006 Вт = 6 мВт\n\n"
+	(text "I_{C} = 250 mA\nV_{load} = +12V\nV_{control} = -3.3V\n\nhfe = 210\nV_{CE_{sat}} = 0.7V\nV_{BE_{sat}} = 0.02V\n\nI_{C} = I_{B} * hfe\nI_{B} = 250 / 210 = 1.19 mA\nR_{B} = (V_{control} - V_{BE}) / I_{B} = (-3.3 - 0.7) / 0.00119 = -3361.34453782 Om = -3.36134453782 kOm -> 3k3\n\nP = I_{C} * V_{CE} = 0.21 * 0.02 = 0.0042 Вт = 4 мВт\n\n"
 		(exclude_from_sim no)
 		(at 101.6 51.308 0)
 		(effects
@@ -979,7 +979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01075589-3a15-4643-a5f0-f3a2dac62aff")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 46.99 64.77 0)
 			(effects
 				(font
@@ -1031,7 +1031,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1047,7 +1047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d9ffa13-5ee3-4ccf-853f-607b14d57032")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 69.85 63.4999 0)
 			(effects
 				(font
@@ -1056,7 +1056,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3"
+		(property "Value" "33k"
 			(at 69.85 66.0399 0)
 			(effects
 				(font
@@ -1101,7 +1101,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1249,7 +1249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f25944-5e9e-4abe-9e1e-43f6b7dd8fd3")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 59.69 66.04 90)
 			(effects
 				(font
@@ -1257,7 +1257,7 @@
 				)
 			)
 		)
-		(property "Value" "3"
+		(property "Value" "3k3"
 			(at 59.69 68.58 90)
 			(effects
 				(font
@@ -1301,7 +1301,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1326,12 +1326,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 38.1 48.26 0)
+		(property "Value" "-3.3V"
+			(at 40.64 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1383,7 +1384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f736bc-b2f0-4c19-91a3-303fcdefecef")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 81.28 73.6601 0)
 			(effects
 				(font
@@ -1392,7 +1393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC328"
+		(property "Value" "BC327-40"
 			(at 81.28 71.1201 0)
 			(effects
 				(font
@@ -1443,7 +1444,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1459,7 +1460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8eeb551-1296-458b-8cb2-b809350f70be")
-		(property "Reference" "LA?"
+		(property "Reference" "LA1"
 			(at 82.55 85.0899 0)
 			(effects
 				(font
@@ -1513,7 +1514,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "LA?")
+					(reference "LA1")
 					(unit 1)
 				)
 			)
