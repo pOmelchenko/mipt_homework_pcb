@@ -3631,15 +3631,15 @@
 	)
 	(symbol
 		(lib_id "mipt:XS2184")
-		(at 45.72 143.51 0)
+		(at 45.72 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1919da9b-ad4d-403e-b43a-812fe6953133")
-		(property "Reference" "U4"
-			(at 59.436 107.95 0)
+		(property "Reference" "U3"
+			(at 59.436 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3648,7 @@
 			)
 		)
 		(property "Value" "XS2184"
-			(at 59.182 104.394 0)
+			(at 59.182 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3657,7 @@
 			)
 		)
 		(property "Footprint" "mipt:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_1"
-			(at 45.72 143.51 0)
+			(at 45.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/XS2184 Datasheet CN V1.0.pdf"
-			(at 85.598 112.014 0)
+			(at 85.598 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 143.51 0)
+			(at 45.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/c73feff7-a444-4fc1-b029-86822a883591"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "mipt:HLK-7628N")
-		(at 130.81 142.24 0)
+		(at 128.27 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,8 +3861,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a954bb-5aa3-4a8b-883b-bd65fcbedda3")
-		(property "Reference" "U3"
-			(at 172.72 140.9699 0)
+		(property "Reference" "U4"
+			(at 170.18 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3871,7 @@
 			)
 		)
 		(property "Value" "HLK-7628N"
-			(at 172.72 143.5099 0)
+			(at 170.18 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" "mipt:HLK-7628N"
-			(at 130.81 142.24 0)
+			(at 128.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/HLK-7628N_V2.6.pdf"
-			(at 130.81 142.24 0)
+			(at 128.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 142.24 0)
+			(at 128.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4077,7 @@
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/c73feff7-a444-4fc1-b029-86822a883591"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4219,7 +4219,7 @@
 	)
 	(symbol
 		(lib_id "mipt:bl0910")
-		(at 105.41 57.15 0)
+		(at 105.41 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4228,7 +4228,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1e12786-0461-41f3-a83e-370fb3fdee99")
 		(property "Reference" "U2"
-			(at 110.1441 22.86 0)
+			(at 110.1441 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4237,7 @@
 			)
 		)
 		(property "Value" "BL0910"
-			(at 110.1441 25.4 0)
+			(at 110.1441 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4246,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 144.78 18.288 0)
+			(at 144.78 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4255,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheets/bl0910.pdf"
-			(at 137.922 22.86 0)
+			(at 137.922 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 57.15 0)
+			(at 105.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
