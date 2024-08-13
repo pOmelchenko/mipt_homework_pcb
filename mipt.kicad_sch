@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 17.78 57.15)
+		(size 34.29 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49d2430d-cb03-4c6f-bfa8-cf16d4996a72")
+		(property "Sheetname" "Домашняя работа 5"
+			(at 17.78 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./.home_works/home work 05.kicad_sch"
+			(at 17.78 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mipt"
+				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 19.05)
 		(size 34.29 6.35)
 		(fields_autoplaced yes)

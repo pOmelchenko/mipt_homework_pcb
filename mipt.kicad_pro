@@ -48,10 +48,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -632,8 +645,16 @@
       "Задача 1"
     ],
     [
+      "49d2430d-cb03-4c6f-bfa8-cf16d4996a72",
+      "Домашняя работа 5"
+    ],
+    [
       "c41f88df-d2c0-4252-84c0-7c5a3ce7c990",
       "Задача 2"
+    ],
+    [
+      "f30ca6f0-a1c8-47d2-88e4-b0874d18b589",
+      "Задача 1"
     ]
   ],
   "text_variables": {}

@@ -1023,10 +1023,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fff7636a-7e57-4385-8e5f-30353bcda406")
+			(uuid "2c794a65-de03-4116-b400-ce5a373017cb")
 		)
 		(pin "1"
-			(uuid "e9cad3f1-e13f-4a80-9407-459b9cde5f39")
+			(uuid "5c26a065-acf5-42f5-8a00-7a02fde10eb3")
 		)
 		(instances
 			(project "mipt"
@@ -1093,10 +1093,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a6c29707-541e-45d2-98cf-744f7ee2dc9d")
+			(uuid "6cff0ee1-ac23-4bae-8722-9b243e6476c5")
 		)
 		(pin "1"
-			(uuid "c2f18782-aada-470a-baf8-b8119c523e77")
+			(uuid "1e050981-cff8-44b3-a990-50e5f87f18c6")
 		)
 		(instances
 			(project "mipt"
@@ -1117,7 +1117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2df59f12-2fdd-4b83-a7f9-961339ab2dac")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0113"
 			(at 78.74 57.15 0)
 			(effects
 				(font
@@ -1162,12 +1162,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2506451b-7f1f-45f3-8446-26c26f381f07")
+			(uuid "941b6ff2-bdb2-4f71-928b-f1d7fa9389ca")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -1183,7 +1183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ab83a42-2bf0-4e99-9ea4-37a9069ae4b8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0115"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -1228,12 +1228,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "61444d01-694e-4bf3-80f0-2c6071133ef9")
+			(uuid "e0d2f1f5-399a-4da8-9069-92059f411dec")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "#PWR?")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -1293,10 +1293,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3493aac8-fa29-4661-8d6d-8aae05d702fc")
+			(uuid "fa54016a-0e0f-42b6-97c7-b3b74d78af20")
 		)
 		(pin "1"
-			(uuid "512ed545-5519-4194-a429-7fd3d9bbe6d2")
+			(uuid "14d478ee-62e4-42e0-86f9-669d30452b64")
 		)
 		(instances
 			(project "mipt"
@@ -1317,7 +1317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88953b1a-4309-4f35-87f9-74565fac6a51")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0114"
 			(at 38.1 57.15 0)
 			(effects
 				(font
@@ -1363,12 +1363,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "906dbb27-9290-46ca-afdc-8da2864fe0ba")
+			(uuid "9800ec63-06e5-41f9-84b2-9db8a1a819a3")
 		)
 		(instances
 			(project "mipt"
 				(path "/34d483ea-61c1-4e08-b30a-5dee616d4777/f9b8cd78-f2f2-4446-aa11-838913d7a5bd/f08a2be2-cccb-4bdb-87b3-05d95f6eb5a2"
-					(reference "#PWR?")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1433,13 +1433,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "09982f5a-e2fc-4a62-a4d8-f66b67ae8f11")
+			(uuid "d7a31488-fd70-47f2-b6cd-bc9fbe303960")
 		)
 		(pin "3"
-			(uuid "99e05c72-2876-402c-84a4-3233e2d3624e")
+			(uuid "e667826f-b697-479e-a396-c8ab39503550")
 		)
 		(pin "2"
-			(uuid "3ab7a9d4-6443-4c6f-a83c-273e1bf19e55")
+			(uuid "3fb285a8-2d1a-41a5-a943-d4f187f93604")
 		)
 		(instances
 			(project "mipt"
@@ -1506,10 +1506,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc9d1ccb-c82c-46a6-a3ca-d1f89ffb506c")
+			(uuid "9f1d8493-e843-4909-9318-6ee0c79bd9c2")
 		)
 		(pin "2"
-			(uuid "87fc227e-66da-46e1-9753-e3af511668b8")
+			(uuid "79db91be-7010-4a66-a233-340a1c92e87e")
 		)
 		(instances
 			(project "mipt"
