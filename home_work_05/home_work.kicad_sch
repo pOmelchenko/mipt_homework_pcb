@@ -1,0 +1,62 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2dc85d6d-5070-4742-814b-83a7bb72a5d3")
+	(paper "A4")
+	(lib_symbols)
+	(text "Практическое задание\n\nВыполнить реализацию датчика протечки. Данная схема должна обеспечить аудио и визуальную индикацию\nсобытия затопления, в качестве электродов можно использовать соединительные провода из набора, \nиспытать схему помещая электроды в емкость с водой (стакан). Используемое напряжение 5В. \nПосле отладки проекта на бредборде его требуется выполнить на монтажной плате при помощи пайки. \nДля подключения электродов использовать винтовой зажим."
+		(exclude_from_sim no)
+		(at 25.654 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "58fc9eeb-5c3a-4a4b-a1ca-ccd21314f755")
+	)
+	(sheet
+		(at 25.4 55.88)
+		(size 48.26 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b7900fe-f3c6-482c-9a4d-458a3d34bdc8")
+		(property "Sheetname" "Задача 1"
+			(at 25.4 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "task_01.kicad_sch"
+			(at 25.4 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "home_work"
+				(path "/2dc85d6d-5070-4742-814b-83a7bb72a5d3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
