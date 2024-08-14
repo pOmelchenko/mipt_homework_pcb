@@ -1,0 +1,138 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "69d67e86-2d0f-4caa-88ab-0139115a92ca")
+	(paper "A4")
+	(lib_symbols)
+	(text "Практическое задание\n\nЗадача 1\n- Рассчитать номинал и мощность резистора для подключения одного белого светодиода к источнику напряжения 7,4 В.\n- Рассчитать номинал и мощность резистора для последовательного подключения двух зеленых светодиодов к источнику напряжения 11,7 В.\n- Рассчитать номинал и мощность резисторов для последовательно-параллельного подключения шестнадцати красных светодиодов к источнику напряжения 12,7 В.\n\nЗадача 2\n- Рассчитать номиналы резисторов для делителя: из напряжения 12,7 В требуется получить на выходе 8,4 В при номинале резистора R1 220 Ом\n- Рассчитать номиналы резисторов для делителя: из напряжения 6,8 В требуется получить на выходе 3,4 В при номинале резистора R1 82 Ом\n- Произвести перерасчет делителей задач 2.1 и 2.2 при условии тока нагрузки, подключенной к выходу равной 7 мА. Номинал R1 задан явно в условии.\n\nЗадача 3 \n- Произвести расчет времени заряда конденсатора до 95%:\n  - 2,2 мкФ, при сопротивлении 82 Ом;\n  - 33 мкФ, при сопротивлении 6,8 Ом;\n  - 0,47 нФ, при сопротивлении 1,8 кОм.\n\nВыполнить в одном проекте KiCAD схемы для 1 и 2 задач на одном листе, приложить в виде PDF.\n\n"
+		(exclude_from_sim no)
+		(at 24.892 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "46c1f3c1-e304-4845-b3aa-dc58d07a744d")
+	)
+	(sheet
+		(at 128.27 69.85)
+		(size 48.26 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8859450b-3dc3-49af-a184-b6e3305b1009")
+		(property "Sheetname" "Задача 3"
+			(at 128.27 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "task_03.kicad_sch"
+			(at 128.27 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 69.85)
+		(size 48.26 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91a3f542-ae8f-492d-b48c-64c20e4235c8")
+		(property "Sheetname" "Задача 1"
+			(at 24.13 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "task_01.kicad_sch"
+			(at 24.13 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 69.85)
+		(size 48.26 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5bd94d8-99a5-406a-bd57-80becdb15fdd")
+		(property "Sheetname" "Задача 2"
+			(at 76.2 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "task_02.kicad_sch"
+			(at 76.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
