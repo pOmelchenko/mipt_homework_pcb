@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -5.25 0)
+		(at 0 -5.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "35911c56-5558-4f30-8e8c-1095cccd0743")
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -5 -4)
-		(end 5 4)
+		(start -5 -4.5)
+		(end 5 3.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -79,8 +79,8 @@
 		(uuid "c24c7b24-bb1a-41b9-b8bd-67f871c998cd")
 	)
 	(fp_rect
-		(start -5.25 -4.25)
-		(end 5.25 4.25)
+		(start -5.25 -4.75)
+		(end 5.25 3.75)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -88,32 +88,6 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "4ebd76aa-b65a-423c-980d-1eb65ea419e4")
-	)
-	(fp_text user "+12"
-		(at -8.75 0 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4dafcdef-6431-476b-b25d-714b8a846d0c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "GND"
-		(at 5.5 0 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "7cf03956-6ae9-4a7f-b470-ba4dce084ff1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)

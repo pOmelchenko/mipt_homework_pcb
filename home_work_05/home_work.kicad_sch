@@ -1996,12 +1996,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 123.19 54.61 0)
+		(property "Value" "+5V"
+			(at 125.73 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2273,12 +2274,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 99.06 54.61 0)
+		(property "Value" "+5V"
+			(at 101.6 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
