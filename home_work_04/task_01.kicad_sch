@@ -1005,7 +1005,17 @@
 		)
 		(uuid "fc4a1c39-63a0-4f86-ad18-e496427fbf2c")
 	)
-	(text "I_{C} = 250 mA\nV_{BT2} = +12V\nV_{BT1} = -3.3V\n\nhfe = 210\nV_{CE_{sat}} = 0.7V\nV_{BE_{sat}} = 0.02V\n\nI_{C} = I_{B} * hfe\nI_{B} = 250 / 210 = 1.19 mA\nR_{B} = (V_{control} - V_{BE}) / I_{B} = (-3.3 - 0.7) / 0.00119 = -3361.34453782 Om = -3.36134453782 kOm -> 3k3\n\nP = I_{C} * V_{CE} = 0.21 * 0.02 = 0.0042 Вт = 4 мВт\n\n"
+	(text "https://tinyurl.com/2aj4gmdg"
+		(exclude_from_sim no)
+		(at 60.706 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35d90f29-9b24-46cc-833b-e95dc180e890")
+	)
+	(text "I_{C} = 250 mA\nV_{BT2} = 12V\nV_{BT1} = 3.3V\n\nhfe = 210\nV_{CE_{sat}} = 0.85V\nV_{BE_{sat}} = 0.12V\n\nI_{C} = I_{B} * hfe\n\nI_{B} = 250 / 210 = 1.19 mA\n\nR_{B} = (V_{load} - V_{control} - V_{BE}) / I_{B} \n      = (12 - 3.3 - 0.12) / 0.00119 = 7210.0840336134 Om \n      = 7.2100840336134 kOm -> 7k5\n\nP = (I_{C} * V_{CE}) + (I_{B} * V_{BE}) \n  = (0.25 * 0.85) + (0.00119 * 0.12)\n  = 0.2125 + 0.0001428 = 0.2126428 = 2,1 мВт\n\n"
 		(exclude_from_sim no)
 		(at 104.648 51.308 0)
 		(effects
@@ -1046,7 +1056,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "75k"
 			(at 63.5 62.2299 0)
 			(effects
 				(font
@@ -1253,7 +1263,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "7k5"
 			(at 53.34 64.77 90)
 			(effects
 				(font
