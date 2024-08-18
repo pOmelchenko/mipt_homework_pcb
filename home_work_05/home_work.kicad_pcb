@@ -102,9 +102,9 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33K"
 			(at 5.08 2.37 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "4d7ac9d9-9c71-4669-a839-deae845d590d")
 			(effects
 				(font
@@ -846,7 +846,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "1M"
 			(at -2.54 3.59 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1147,8 +1147,8 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at -4.7 0 180)
-			(layer "F.Fab")
+			(at -5.2 0 180)
+			(layer "F.SilkS")
 			(uuid "8f7bd58e-54ba-49bc-b54a-d34038504fb3")
 			(effects
 				(font
@@ -1703,7 +1703,7 @@
 			)
 		)
 		(property "Value" "BC337-40"
-			(at 1.27 2.79 0)
+			(at 1.04 2.5 0)
 			(layer "F.Fab")
 			(uuid "0ffe599f-9b2a-4219-ab0d-2bfa7ebc1039")
 			(effects
