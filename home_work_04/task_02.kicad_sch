@@ -1181,7 +1181,7 @@
 		)
 		(uuid "eaa050f9-eb3b-444c-94c5-e939bbb54ff7")
 	)
-	(text "V_{control} = 3.3V\nV_{load} = 12V\nI_{C} = 250mA\nhfe = 220\nI_{B} = I_{C} / hfe = 250 / 220 =  1.14 mA\nV_{BE} = 0.85V\nR_{B} = (V_{control} - V_{BE}) / I_{B} = (3.3 - 0.85) / 0.00114 = 2150 Om - 2K2\n"
+	(text "V_{control} = 3.3V\nV_{load} = 12V\n\nI_{C_{max}} = 800 - 25% = 600mA\nhfe = 85\nI_{B} = I_{C_{max}} / hfe = 600 / 85 =  7 mA\nV_{BE} = 0.7V\nR_{B} = (V_{control} - V_{BE}) / I_{B} = (3.3 - 0.7) / 0.007 = 371,4 Om -> 390\n"
 		(exclude_from_sim no)
 		(at 114.554 51.308 0)
 		(effects
@@ -1360,7 +1360,7 @@
 				)
 			)
 		)
-		(property "Value" "2K2"
+		(property "Value" "390"
 			(at 71.12 73.66 90)
 			(effects
 				(font
@@ -1823,6 +1823,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
