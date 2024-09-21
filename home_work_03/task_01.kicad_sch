@@ -1219,7 +1219,7 @@
 		)
 		(uuid "a08fd478-0759-4c3b-a5ca-7b1c41c7a589")
 	)
-	(text "U_{D4..D19} = 2V\nI_{D4..D19} = 0.02A\n\nU_{R3..R10} = 12.7 - 2 - 2 = 8.7V\nR_{R3..R10} = U_{R3..R10} / I_{D4..D19} = 8.7 / 0.02 = 435Ω → 470Ω\n\nP_{R3} = U_{R3} * I_{D2..D3} = 8.7 * 0.02 = 0.174W → 0.25W"
+	(text "U_{D4..D19} = 2V\nI_{D4..D19} = 0.02A\n\nU_{R3..R10} = 12.7 - 2 - 2 = 8.7V\nR_{R3..R10} = U_{R3..R10} / I_{D4..D19} = 8.7 / 0.02 = 435Ω → 470Ω\n\nP_{R3} = U_{R3} * I_{D4..D5} = 8.7 * 0.02 = 0.174W → 0.25W"
 		(exclude_from_sim no)
 		(at 119.888 104.394 0)
 		(effects
@@ -1294,6 +1294,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1357,6 +1363,12 @@
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1426,6 +1438,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D13")
 					(unit 1)
 				)
@@ -1500,6 +1518,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1570,6 +1594,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1633,6 +1663,12 @@
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1706,6 +1742,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1769,6 +1811,12 @@
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1838,6 +1886,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "R8")
 					(unit 1)
 				)
@@ -1912,6 +1966,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1976,6 +2036,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D1")
 					(unit 1)
 				)
@@ -2050,6 +2116,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2116,6 +2188,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "R9")
 					(unit 1)
 				)
@@ -2190,6 +2268,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2256,6 +2340,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D9")
 					(unit 1)
 				)
@@ -2330,6 +2420,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2393,6 +2489,12 @@
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2464,6 +2566,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2527,6 +2635,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D3")
 					(unit 1)
 				)
@@ -2601,6 +2715,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2667,6 +2787,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D10")
 					(unit 1)
 				)
@@ -2741,6 +2867,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2805,6 +2937,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "R2")
 					(unit 1)
 				)
@@ -2879,6 +3017,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2945,6 +3089,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D18")
 					(unit 1)
 				)
@@ -3019,6 +3169,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3085,6 +3241,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D16")
 					(unit 1)
 				)
@@ -3159,6 +3321,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3229,6 +3397,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3293,6 +3467,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D2")
 					(unit 1)
 				)
@@ -3367,6 +3547,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3437,6 +3623,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3500,6 +3692,12 @@
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3573,6 +3771,12 @@
 					(unit 1)
 				)
 			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3639,6 +3843,12 @@
 		(instances
 			(project "task_01"
 				(path "/26b78145-aaa4-4830-9ae4-033f1857ca62"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "home_work"
+				(path "/69d67e86-2d0f-4caa-88ab-0139115a92ca/91a3f542-ae8f-492d-b48c-64c20e4235c8"
 					(reference "D6")
 					(unit 1)
 				)
